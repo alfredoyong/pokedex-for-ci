@@ -13,4 +13,4 @@ jobs:
         run: echo "Hello and goodbye, using ubuntu-22.04"
       - name: Display the date
         run: date
-      - run: la 
+      - run: ls -hlrt
