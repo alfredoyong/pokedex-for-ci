@@ -1,0 +1,13 @@
+name: Say goodbye
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  hello_world: 
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Display the message
+        run: echo "Hello and goodbye"
