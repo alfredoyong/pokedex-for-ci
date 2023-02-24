@@ -12,5 +12,5 @@ jobs:
       - name: Display the message
         run: echo "Hello and goodbye, using ubuntu-22.04"
       - name: Display the date
-        run: date-format
+        run: date
       - run: la 
