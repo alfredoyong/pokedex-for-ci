@@ -7,7 +7,7 @@ on:
 
 jobs:
   hello_world: 
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Display the message
-        run: echo "Hello and goodbye"
+        run: echo "Hello and goodbye, using ubuntu-22.04"
