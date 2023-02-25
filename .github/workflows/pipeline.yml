@@ -16,8 +16,8 @@ jobs:
         with:
           node-version: 16
       - name: Install dependencies
-      # removed for efficiency. Used to be: install --no-audit --no-fund --no-optional
-        run: npm ci 
+        run: npm install --no-audit --no-fund --no-optional
+        # gives a ¡n error # run: npm ci 
       - name: Lint
         run: npm run eslint
       - name: Build
